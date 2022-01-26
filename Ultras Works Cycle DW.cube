@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3122" scrolltop="-4929" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="36169" y="15690" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3122" scrolltop="2055" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="1508" y="15452" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -558,7 +558,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-4929</Value>
+      <Value>2055</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -883,6 +883,7 @@
               <ColumnID>OrderQuantity</ColumnID>
             </Source>
           </Source>
+          <FormatString></FormatString>
         </Measure>
         <Measure dwd:design-time-name="54d32b0d-fd08-4f16-bb08-a525f7a5704d">
           <ID>Unit Price</ID>
@@ -894,6 +895,7 @@
               <ColumnID>UnitPrice</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="dd1a93d7-f460-4429-9093-15ed2e32d8a1">
           <ID>Extended Amount</ID>
@@ -905,6 +907,7 @@
               <ColumnID>ExtendedAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="b628d297-3653-444c-9fcb-1b8d90841e86">
           <ID>Unit Price Discount Pct</ID>
@@ -916,6 +919,7 @@
               <ColumnID>UnitPriceDiscountPct</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="67deb096-53c5-47c5-9e87-732ea94459db">
           <ID>Discount Amount</ID>
@@ -927,6 +931,7 @@
               <ColumnID>DiscountAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="91be58b3-8d0b-482f-b918-65c59985a2df">
           <ID>Product Standard Cost</ID>
@@ -938,6 +943,7 @@
               <ColumnID>ProductStandardCost</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="672789e4-3d81-4bfb-9ba4-49956dc1fbd9">
           <ID>Total Product Cost</ID>
@@ -949,6 +955,7 @@
               <ColumnID>TotalProductCost</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="7ee61188-962a-40ad-b900-70b22a53b779">
           <ID>Sales Amount</ID>
@@ -960,6 +967,7 @@
               <ColumnID>SalesAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="d9c750bc-4576-4806-9ecb-140cbec7e4bd">
           <ID>Tax Amt</ID>
@@ -971,6 +979,7 @@
               <ColumnID>TaxAmt</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="ebbd39a8-b49e-44b2-b144-e38316bef676">
           <ID>Freight</ID>
@@ -982,6 +991,7 @@
               <ColumnID>Freight</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="d1421727-9e3c-4bbd-a29a-81eadace9fc5">
           <ID>Fact Internet Sales Count</ID>
@@ -994,6 +1004,7 @@
               <TableID>dbo_FactInternetSales</TableID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="39df5c72-371d-4a56-b957-6ac0819d114b">
           <ID>Order Date Count</ID>
@@ -1216,6 +1227,7 @@
               <ColumnID>UnitPrice</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="89b8b4d5-d027-4e11-a37f-c0276e83f956">
           <ID>Extended Amount - Fact Reseller Sales</ID>
@@ -1227,6 +1239,7 @@
               <ColumnID>ExtendedAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="fc3f06f5-9b91-4b49-855a-85085f252aaf">
           <ID>Unit Price Discount Pct - Fact Reseller Sales</ID>
@@ -1238,6 +1251,7 @@
               <ColumnID>UnitPriceDiscountPct</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="8ef53dbb-460c-4f0d-ae9d-9cd4d670e79c">
           <ID>Discount Amount - Fact Reseller Sales</ID>
@@ -1249,6 +1263,7 @@
               <ColumnID>DiscountAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="25ecd009-9b10-43d0-a64e-488429ea2a4c">
           <ID>Product Standard Cost - Fact Reseller Sales</ID>
@@ -1260,6 +1275,7 @@
               <ColumnID>ProductStandardCost</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="5acbde10-9e74-4d47-8bf6-45c6886f3660">
           <ID>Total Product Cost - Fact Reseller Sales</ID>
@@ -1271,6 +1287,7 @@
               <ColumnID>TotalProductCost</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="8350131a-288f-4223-b955-1ee0e665fa36">
           <ID>Sales Amount - Fact Reseller Sales</ID>
@@ -1282,6 +1299,7 @@
               <ColumnID>SalesAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="99c18f6a-8a19-4425-9ee1-dbec93bc3a67">
           <ID>Tax Amt - Fact Reseller Sales</ID>
@@ -1293,6 +1311,7 @@
               <ColumnID>TaxAmt</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="2a34b19b-fa44-4434-8058-e75d2dd520ce">
           <ID>Freight - Fact Reseller Sales</ID>
@@ -1304,6 +1323,7 @@
               <ColumnID>Freight</ColumnID>
             </Source>
           </Source>
+          <FormatString>Currency</FormatString>
         </Measure>
         <Measure dwd:design-time-name="f86a00a7-d8ba-479b-96c0-aea08dc7a67e">
           <ID>Fact Reseller Sales Count</ID>
