@@ -694,6 +694,9 @@
         <Attribute dwd:design-time-name="ae3eca68-bb3c-4cf1-ba7c-55df4bd90e93">
           <AttributeID>Number Children At Home</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="0d71ac65-1dc3-42ba-aacb-830bf7585241">
+          <AttributeID>Birth Year</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="327c6c53-cd93-4952-9432-c9d49f9c14f5">
