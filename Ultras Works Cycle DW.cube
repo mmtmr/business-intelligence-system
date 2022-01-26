@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="11085" scrolltop="2055" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="36883" y="15690" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="11085" scrolltop="9039" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="36883" y="15690" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -195,8 +195,8 @@
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="31898" y="20217" />
-              <point x="31898" y="12609" />
-              <point x="21275" y="12609" />
+              <point x="31898" y="12644" />
+              <point x="21275" y="12644" />
               <point x="21275" y="5071" />
             </connector>
           </ddscontrol>
@@ -235,8 +235,8 @@
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="6" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="23346" y="8403" />
-              <point x="23346" y="6702" />
-              <point x="22375" y="6702" />
+              <point x="23346" y="6737" />
+              <point x="22375" y="6737" />
               <point x="22375" y="5071" />
             </connector>
           </ddscontrol>
@@ -295,8 +295,8 @@
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="4" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="38863" y="15450" />
-              <point x="38863" y="10402" />
-              <point x="21825" y="10402" />
+              <point x="38863" y="10261" />
+              <point x="21825" y="10261" />
               <point x="21825" y="5071" />
             </connector>
           </ddscontrol>
@@ -315,8 +315,8 @@
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="3" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="10027" y="14801" />
-              <point x="10027" y="9901" />
-              <point x="20725" y="9901" />
+              <point x="10027" y="9936" />
+              <point x="20725" y="9936" />
               <point x="20725" y="5071" />
             </connector>
           </ddscontrol>
@@ -560,7 +560,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>2055</Value>
+      <Value>9039</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -975,7 +975,7 @@
         </Measure>
         <Measure dwd:design-time-name="f1ae29d6-9dff-4b4d-9181-59644c5f6136">
           <ID>Sales Amount</ID>
-          <Name>Sales Amount</Name>
+          <Name>Total Sales Amount</Name>
           <Source dwd:design-time-name="a045acb7-a064-4e5c-8c3a-419e5bdd8c8b">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="c401cb67-741a-4f85-a73d-f96bfaf4defd">
@@ -1032,6 +1032,18 @@
             <Source xsi:type="ColumnBinding" dwd:design-time-name="d06958eb-1a0d-474a-bcee-b034357d9378">
               <TableID>dbo_FactInternetSales</TableID>
               <ColumnID>OrderDate</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="63b7bf2c-f012-4d29-ac46-c307490bc0f0">
+          <ID>Sales Amount - Fact Internet Sales</ID>
+          <Name>Average Sales Amount</Name>
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="1ae17363-e6f7-4916-a758-b75593520711">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0dd7ae05-bf86-4e95-b124-7ec0be20364b">
+              <TableID>dbo_FactInternetSales</TableID>
+              <ColumnID>SalesAmount</ColumnID>
             </Source>
           </Source>
         </Measure>
