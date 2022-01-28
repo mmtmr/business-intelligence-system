@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2858" scrolltop="-7589" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="28363" y="15690" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="11085" scrolltop="9039" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="36883" y="15690" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -556,11 +556,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2858</Value>
+      <Value>11085</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-7589</Value>
+      <Value>9039</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -867,19 +867,27 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="5c99cf82-79c9-43fe-b685-fce14d8885a9">
-          <ID>Sales Order Number Count - Fact Internet Sales</ID>
-          <Name>IE Sales Order Count</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <DataType>Integer</DataType>
-          <Source dwd:design-time-name="b9489cbe-f4ee-413c-94f1-88cc169dbccd">
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3215c80f-fbaf-452e-836d-afe96f155f12">
+        <Measure dwd:design-time-name="540c6af8-f7ee-43cc-983a-57284540eda0">
+          <ID>Currency Key</ID>
+          <Name>Currency Key</Name>
+          <Source dwd:design-time-name="a20ca25d-fc4a-429e-a6f7-b98afa4621ea">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7dc94cf9-72be-41e8-bc5b-77031df2d911">
               <TableID>dbo_FactInternetSales</TableID>
-              <ColumnID>SalesOrderNumber</ColumnID>
+              <ColumnID>CurrencyKey</ColumnID>
             </Source>
           </Source>
-          <FormatString>Standard</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="3288d1a5-2760-4d77-a3c9-169b0ce86979">
+          <ID>Revision Number</ID>
+          <Name>Revision Number</Name>
+          <Source dwd:design-time-name="50701f98-3061-438f-b529-c9f11eedf72b">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9b8977c2-41dd-4421-8cf1-3c73f3aed8f3">
+              <TableID>dbo_FactInternetSales</TableID>
+              <ColumnID>RevisionNumber</ColumnID>
+            </Source>
+          </Source>
         </Measure>
         <Measure dwd:design-time-name="841649f3-71bc-41db-9729-304e7536914d">
           <ID>Order Quantity</ID>
@@ -1024,6 +1032,18 @@
             <Source xsi:type="ColumnBinding" dwd:design-time-name="d06958eb-1a0d-474a-bcee-b034357d9378">
               <TableID>dbo_FactInternetSales</TableID>
               <ColumnID>OrderDate</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="63b7bf2c-f012-4d29-ac46-c307490bc0f0">
+          <ID>Sales Amount - Fact Internet Sales</ID>
+          <Name>Average Sales Amount</Name>
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="1ae17363-e6f7-4916-a758-b75593520711">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0dd7ae05-bf86-4e95-b124-7ec0be20364b">
+              <TableID>dbo_FactInternetSales</TableID>
+              <ColumnID>SalesAmount</ColumnID>
             </Source>
           </Source>
         </Measure>
@@ -1345,19 +1365,6 @@
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="1fffc884-9a24-45c6-9d9d-d4aa79797edd">
-          <ID>Sales Order Number Count</ID>
-          <Name>Sales Order Number Count</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <DataType>Integer</DataType>
-          <Source dwd:design-time-name="f5c074df-ef38-4c91-b78f-09b78c93bff3">
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5d2253a1-1e2d-409d-9129-17bf67e1adbb">
-              <TableID>dbo_FactResellerSales</TableID>
-              <ColumnID>SalesOrderNumber</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
@@ -1521,11 +1528,7 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE; 
-CREATE MEMBER CURRENTCUBE.[Measures].[Average of Total Sales]
- AS [Measures].[Total Sales Amount]/[Measures].[IE Sales Order Count], 
-FORMAT_STRING = "Currency", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Internet Sales'  ; </Text>
+CALCULATE; </Text>
         </Command>
       </Commands>
     </MdxScript>
