@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5468" scrolltop="-7589" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23336" y="15690" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5468" scrolltop="-605" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23336" y="15690" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -560,7 +560,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-7589</Value>
+      <Value>-605</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -623,6 +623,9 @@
         <Attribute dwd:design-time-name="2d076781-c92b-4849-8d16-82f4f204bc95">
           <AttributeID>English Month Name</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="b3df42ab-5705-4359-afcb-cadacd4d6147">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="673be91e-3786-4f4d-8a9b-d4759bf60a94">
@@ -673,9 +676,6 @@
         <Attribute dwd:design-time-name="297181cd-33ce-4b08-8428-62dfa357c66e">
           <AttributeID>Commute Distance</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="607b9d37-2afe-4bcd-bb9e-04d643478620">
-          <AttributeID>English Education</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="6580b74e-3f24-45ee-ab48-e51d53a75aec">
           <AttributeID>English Occupation</AttributeID>
         </Attribute>
@@ -696,6 +696,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="8124bd4e-4bbd-4445-910e-db2992f5d32c">
           <AttributeID>Birth Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3b8f1a24-0c32-476c-9ea2-fceec5c7c706">
+          <AttributeID>Rank Education</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
@@ -761,6 +764,9 @@
         <Attribute dwd:design-time-name="55c32cdb-b917-46af-b751-6f87b0238791">
           <AttributeID>English Month Name</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="f5d9d9db-bc54-42a7-8bfe-8e3a02306777">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="2e72ff37-aaf5-4b6c-9109-d6c1ce06e6c5">
@@ -779,6 +785,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="3ef55843-87e7-4758-b196-7f3f30b5cd74">
           <AttributeID>English Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81807271-eb2b-4727-a5df-2f9fbec3d229">
+          <AttributeID>Calendar Year</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -1009,19 +1018,6 @@
           </Source>
           <FormatString>Currency</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="8adc1d2e-85b1-4cd1-b176-ba8ac0291f65">
-          <ID>Order Date Count</ID>
-          <Name>Order Date Count</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <DataType>Integer</DataType>
-          <Source dwd:design-time-name="480ae098-b2aa-44ab-9ed8-7a57bf8311db">
-            <DataType>Date</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="7f955a50-24bf-4dcb-874d-e8e4953fa8d0">
-              <TableID>dbo_FactInternetSales</TableID>
-              <ColumnID>OrderDate</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
         <Measure dwd:design-time-name="0cde5d63-80c8-4d3f-b3af-de7d2423d054">
           <ID>Fact Internet Sales Count</ID>
           <Name>Fact Internet Sales Count</Name>
@@ -1034,6 +1030,19 @@
             </Source>
           </Source>
           <FormatString>Standard</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="d37c5ed4-fc00-492a-ba3e-0b267ec5cfd1">
+          <ID>Order Date</ID>
+          <Name>Order Date</Name>
+          <AggregateFunction>None</AggregateFunction>
+          <DataType>Date</DataType>
+          <Source dwd:design-time-name="f162f42b-2edb-4bc6-9352-ae99a9221c6d">
+            <DataType>Date</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c4093a33-518a-4844-bab1-39d51b4ec0d8">
+              <TableID>dbo_FactInternetSales</TableID>
+              <ColumnID>OrderDate</ColumnID>
+            </Source>
+          </Source>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
