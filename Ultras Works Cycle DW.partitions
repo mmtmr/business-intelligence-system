@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b24d10d8-ed7d-4b5a-87e9-aee690bed7eb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3723e2a1-6975-41eb-8124-3752f52ab484" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Ultras Works Cycle DW</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Fact Internet Sales</ID>
       <Partitions>
-        <Partition dwd:design-time-name="1b9340b5-045a-47f7-9524-3bcf318f2b09">
+        <Partition dwd:design-time-name="bd448687-5a49-4194-8b0e-54d726d9afdc">
           <ID>Fact Internet Sales</ID>
           <Name>Fact Internet Sales</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="776b02df-bff7-4f66-b35c-84ed3f830324">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="97503dc9-e4e1-4567-b5af-941394246418">
             <DataSourceViewID>Ultras Works Cycle DW</DataSourceViewID>
             <TableID>dbo_FactInternetSales</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Fact Reseller Sales</ID>
       <Partitions>
-        <Partition dwd:design-time-name="4ca6ca26-75be-44ce-b811-4713bcd56042">
+        <Partition dwd:design-time-name="16dd5e14-822c-4e55-bc63-85b73f65793e">
           <ID>Fact Reseller Sales</ID>
           <Name>Fact Reseller Sales</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3cfc1518-5c76-4bf8-8ca2-a3c0cbee2d0d">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4b7e74b7-ccc9-4d18-8edf-52668c622afe">
             <DataSourceViewID>Ultras Works Cycle DW</DataSourceViewID>
             <TableID>dbo_FactResellerSales</TableID>
           </Source>
