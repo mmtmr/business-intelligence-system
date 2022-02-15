@@ -993,7 +993,7 @@
         </Measure>
         <Measure dwd:design-time-name="c012931c-2b1c-4b65-8b4c-7513ea9add77">
           <ID>Sales Amount</ID>
-          <Name>Total Sales Amount</Name>
+          <Name>IE Total Sales Amount</Name>
           <Source dwd:design-time-name="7abf3d83-04dc-48cb-9970-4a24c71db2bf">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="ade35e11-583e-412a-a6bd-3ff0d42510cb">
@@ -1548,7 +1548,7 @@ You should edit this command only if you manually specify how the cube is aggreg
 */
 CALCULATE;  
 CREATE MEMBER CURRENTCUBE.[Measures].[Average Sales Amount]
- AS [Measures].[Total Sales Amount]/[Measures].[IE Sales Order Count], 
+ AS [Measures].[IE Total Sales Amount]/[Measures].[IE Sales Order Count], 
 FORMAT_STRING = "Currency", 
 VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Internet Sales'  ; </Text>
         </Command>
