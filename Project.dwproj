@@ -51,6 +51,10 @@
       <Name>Dim Sales Reason.dim</Name>
       <FullPath>Dim Sales Reason.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Reseller 1.dim</Name>
+      <FullPath>Dim Reseller 1.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
