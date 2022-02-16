@@ -1154,7 +1154,7 @@
         </Measure>
         <Measure dwd:design-time-name="ce682dae-00f2-4a17-bbca-4b945941e2b3">
           <ID>Total Product Cost</ID>
-          <Name>Total Product Cost</Name>
+          <Name>IE Total Product Cost</Name>
           <Source dwd:design-time-name="b549f24d-dee0-4d65-bb9f-406b4fea9544">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="1c20db1c-eabd-46ef-82b2-9386a570cf62">
@@ -1499,7 +1499,7 @@
         </Measure>
         <Measure dwd:design-time-name="86f09508-5a7b-4285-bf19-94dd900641e3">
           <ID>Total Product Cost - Fact Reseller Sales</ID>
-          <Name>Total Product Cost - Fact Reseller Sales</Name>
+          <Name>RS Total Product Cost</Name>
           <Source dwd:design-time-name="58c6d961-99fb-495a-b25e-fb9b5359c9ca">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="786bed9b-65e3-4376-bd21-f60fd20c3dcd">
@@ -1784,8 +1784,16 @@ If the CALCULATE command is deleted or modified, the data within the cube is aff
 You should edit this command only if you manually specify how the cube is aggregated.
 */
 CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[IE Total Profit]
+ AS [Measures].[IE Total Sales Amount]-[Measures].[IE Total Product Cost], 
+FORMAT_STRING = "Currency", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Internet Sales'  ; 
 CREATE MEMBER CURRENTCUBE.[Measures].[RS Avg Product Price]
  AS ([Measures].[RS Total Sales Amount]/[Measures].[RS Order Quantity]), 
+FORMAT_STRING = "Currency", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Reseller Sales'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[RS Total Profit]
+ AS [Measures].[RS Total Sales Amount]-[Measures].[RS Total Product Cost], 
 FORMAT_STRING = "Currency", 
 VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Reseller Sales'  ; 
 CREATE MEMBER CURRENTCUBE.[Measures].[IE Avg Product Price]
