@@ -47,6 +47,10 @@
       <Name>Dim Geography.dim</Name>
       <FullPath>Dim Geography.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Sales Reason.dim</Name>
+      <FullPath>Dim Sales Reason.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
