@@ -1337,7 +1337,7 @@
         </Measure>
         <Measure dwd:design-time-name="db13065c-67f2-4489-ace5-2384d6e5beb8">
           <ID>Sales Amount - Fact Reseller Sales</ID>
-          <Name>Sales Amount - Fact Reseller Sales</Name>
+          <Name>RS Total Sales Amount</Name>
           <Source dwd:design-time-name="f43fd1d1-f117-481c-badb-501f0e5b87f6">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="8ec434a7-b8b6-411b-b635-a0316a0ca8ac">
