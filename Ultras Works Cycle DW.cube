@@ -1787,7 +1787,11 @@ CALCULATE;
 CREATE MEMBER CURRENTCUBE.[Measures].[IE Avg Sales Amount]
  AS [Measures].[IE Total Sales Amount]/[Measures].[IE Sales Order Count], 
 FORMAT_STRING = "Currency", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Internet Sales'  ; </Text>
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Internet Sales'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[RS Avg Sales Amount]
+ AS [Measures].[RS Total Sales Amount]/[Measures].[RS Sales Order Count], 
+FORMAT_STRING = "Currency", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Reseller Sales'  ; </Text>
         </Command>
       </Commands>
     </MdxScript>
