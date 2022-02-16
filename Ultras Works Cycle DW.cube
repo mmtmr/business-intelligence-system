@@ -749,6 +749,11 @@
           <AttributeID>Product Line</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="9f5e66e7-65c5-4d39-b459-532fd63ec2f1">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="1999c712-3a90-40dc-96fb-c1241aeb0f81">
       <ID>Ship Date</ID>
@@ -1373,7 +1378,7 @@
         </Measure>
         <Measure dwd:design-time-name="ac379be2-8c48-447c-96fb-4acb9f9b73c8">
           <ID>Fact Reseller Sales Count</ID>
-          <Name>Fact Reseller Sales Count</Name>
+          <Name>RS Sales Order Count</Name>
           <AggregateFunction>Count</AggregateFunction>
           <Source dwd:design-time-name="7224b479-e0e9-4b56-84e8-ef563432b6ae">
             <DataType>Integer</DataType>
