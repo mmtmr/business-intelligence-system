@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3bc0b4fb-f417-47d8-beda-2bdc0b42ef89" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4b2b17c7-69e5-45e7-8ebc-0ce7e6fbe2bf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Sales Reason</ID>
   <Name>Dim Sales Reason</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3644" scrolltop="-6483" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11827" y="15690" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3644" scrolltop="-7983" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="30321" y="15690" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSalesReason" left="-483" top="-212" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSalesReason" left="-3314" top="-7700" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e000092110000a50a0000" />
             </control>
@@ -51,15 +51,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-6483</Value>
+      <Value>-7983</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-483</Value>
+      <Value>-3314</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-212</Value>
+      <Value>-7700</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -68,35 +68,35 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="91539cbb-9446-46f7-9783-dd11456f89fc">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="aefa9245-d2e1-4335-9fc3-bf417cbeb578">
     <DataSourceViewID>Ultras Works Cycle DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="f0e32466-1795-40a0-838d-976e2c53beef">
+  <ErrorConfiguration dwd:design-time-name="3c6c99fd-d5c1-426a-a6e0-7a0af31a3b3b">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="64f1351a-a31a-4032-af07-631ce9c54b22">
+    <Attribute dwd:design-time-name="43dc39ad-190a-4a89-b5f5-a1c10710651b">
       <ID>Sales Reason Key</ID>
       <Name>Sales Reason Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fb77baf2-5298-4c83-98a6-8e10c7bd31f7">
+        <KeyColumn dwd:design-time-name="109c4d5e-a31b-42d7-889b-342acdea476e">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="263aa022-4da9-4064-afd2-46b2a55add57">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="71702829-8234-4b54-8303-2880ed9203d8">
             <TableID>dbo_DimSalesReason</TableID>
             <ColumnID>SalesReasonKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="21d01ec0-8a5f-40c2-babd-dd1779c5be84">
+        <AttributeRelationship dwd:design-time-name="a98ea642-544a-4079-b526-f4361d15fb97">
           <AttributeID>Sales Reason Reason Type</AttributeID>
           <Name>Sales Reason Reason Type</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d54d487a-faee-4954-a0b2-e478645c3349">
+        <AttributeRelationship dwd:design-time-name="6dba528c-38ae-48c4-aef8-17dc5a219f69">
           <AttributeID>Sales Reason Name</AttributeID>
           <Name>Sales Reason Name</Name>
         </AttributeRelationship>
@@ -105,14 +105,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="50b1e606-7196-42e7-9f2f-7b306678670e">
+    <Attribute dwd:design-time-name="f8e8ea8f-9726-4f53-8ee3-cf17d7aed61e">
       <ID>Sales Reason Reason Type</ID>
       <Name>Sales Reason Reason Type</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="32c47603-0a6e-4f4b-93c8-28b09aefdc60">
+        <KeyColumn dwd:design-time-name="0e9ed6ae-fc06-4b4d-a2ba-ad2161a7ba02">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb6878ff-2e2b-4f49-a87b-b1f44a419c05">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="23936307-bfeb-41d2-bd74-f2aa36cac39a">
             <TableID>dbo_DimSalesReason</TableID>
             <ColumnID>SalesReasonReasonType</ColumnID>
           </Source>
@@ -121,14 +121,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e156fe76-db34-4c4e-a19b-e37aa9b71a0c">
+    <Attribute dwd:design-time-name="523e26c9-f2da-4073-9f4a-c2a47198f63e">
       <ID>Sales Reason Name</ID>
       <Name>Sales Reason Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b1fa96f7-d5c6-4064-be05-9b8645e12d75">
+        <KeyColumn dwd:design-time-name="da06721f-644b-45c9-828f-03f3f42ec184">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9481b306-6285-4ec2-b25b-1e3e00f3790a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a17a6c8d-31a5-4af7-82bd-f90f622faaa1">
             <TableID>dbo_DimSalesReason</TableID>
             <ColumnID>SalesReasonName</ColumnID>
           </Source>
@@ -139,16 +139,16 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="5158cce9-3959-4893-8e24-5d928e3e2a1a">
+    <Hierarchy dwd:design-time-name="f7372d52-3ec6-43b6-a47f-83e42eb4ad84">
       <ID>Hierarchy</ID>
       <Name>Sales Reason Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="25613402-fc95-40be-be05-4a99c7f8e0c0">
+        <Level dwd:design-time-name="99bcdf6b-de42-43f9-984f-6c6657519e91">
           <ID>Sales Reason Reason Type</ID>
           <Name>Sales Reason Reason Type</Name>
           <SourceAttributeID>Sales Reason Reason Type</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="87e021b4-8494-4709-b582-d6c104d9dba0">
+        <Level dwd:design-time-name="ea7fd420-65ce-4445-b88e-d281e08efc56">
           <ID>Sales Reason Name</ID>
           <Name>Sales Reason Name</Name>
           <SourceAttributeID>Sales Reason Name</SourceAttributeID>

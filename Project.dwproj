@@ -20,16 +20,8 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Dim Promotion.dim</Name>
-      <FullPath>Dim Promotion.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dim Date.dim</Name>
       <FullPath>Dim Date.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Sales Territory.dim</Name>
-      <FullPath>Dim Sales Territory.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Customer.dim</Name>
@@ -40,20 +32,12 @@
       <FullPath>Dim Product.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Employee.dim</Name>
-      <FullPath>Dim Employee.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Geography.dim</Name>
-      <FullPath>Dim Geography.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dim Sales Reason.dim</Name>
       <FullPath>Dim Sales Reason.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Reseller 1.dim</Name>
-      <FullPath>Dim Reseller 1.dim</FullPath>
+      <Name>Dim Reseller.dim</Name>
+      <FullPath>Dim Reseller.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
